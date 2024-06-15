@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #32012F;
+  color: #E2DFD0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}

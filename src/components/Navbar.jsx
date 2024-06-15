@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link, NavLink } from "react-router-dom";
 import { useState } from 'react'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 
@@ -14,14 +14,25 @@ function Navbar() {
     <nav className='my-5 mx-5 bg-stone-300 text-pink-950 py-2.5 px-2.5 rounded-full'>
       <div className='flex justify-between items-center px-2.5'>
         <div className="logo">
-          <span className='text-3xl font-semibold'>DORCAS</span>
+          <Link to="/">
+            <span className='text-3xl font-semibold'>DORCAS</span>
+          </Link>
         </div>
         <div>
           <ul className=' hidden md:flex text-xl gap-5 font-medium'>
-            <li>About</li>
-            <li>Skills/Tools</li>
-            <li>Project</li>
-            <li>Contact</li>
+            <NavLink to="/home">
+              <li>About</li>
+            </NavLink>
+
+            <NavLink to="skills">
+              <li>Skills/Tools</li>
+            </NavLink>
+            <NavLink to="project">
+              <li>Project</li>
+            </NavLink>
+            <NavLink to="contact">
+              <li>Contact</li>
+            </NavLink>
           </ul>
         </div>
         <div onClick={handleNav} className='block md:hidden'>

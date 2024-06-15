@@ -9,5 +9,4 @@ function Footer() {
     </footer>
   )
 }
-// fixed -bottom-2 w-11/12 
 export default Footer

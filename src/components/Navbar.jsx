@@ -11,7 +11,7 @@ function Navbar() {
   }
 
   return (
-    <nav className='my-5 mx-5 bg-stone-300 text-pink-950 py-2.5 px-2.5 rounded-full'>
+    <nav className='my-5 mx-5 bg-stone-300 text-pink-950 py-2.5 px-2.5 rounded-3xl'>
       <div className='flex justify-between items-center px-2.5'>
         <div className="logo">
           <Link to="/home">

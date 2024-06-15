@@ -33,7 +33,7 @@ function Home() {
             </span>
           </div>
         </div>
-        <div className="icon max-w-sm flex-col">
+        <div className="icon hidden sm:flex max-w-sm flex-col">
           <img src={computer} alt="computer" />
         </div>
 

@@ -14,23 +14,39 @@ function Navbar() {
     <nav className='my-5 mx-5 bg-stone-300 text-pink-950 py-2.5 px-2.5 rounded-full'>
       <div className='flex justify-between items-center px-2.5'>
         <div className="logo">
-          <Link to="/">
+          <Link to="/home">
             <span className='text-3xl font-semibold'>DORCAS</span>
           </Link>
         </div>
         <div>
           <ul className=' hidden md:flex text-xl gap-5 font-medium'>
-            <NavLink to="/home">
+            <NavLink to="/home"
+              className={({ isActive }) =>
+                ` ${isActive ? " text-red-500 underline" : "text-pink-950"} hover:text-orange-500`
+              }
+            >
               <li>About</li>
             </NavLink>
 
-            <NavLink to="skills">
+            <NavLink to="skills"
+              className={({ isActive }) =>
+                ` ${isActive ? " text-red-500 underline" : "text-pink-950"} hover:text-orange-500`
+              }
+            >
               <li>Skills/Tools</li>
             </NavLink>
-            <NavLink to="project">
+            <NavLink to="project"
+              className={({ isActive }) =>
+                ` ${isActive ? " text-red-500 underline" : "text-pink-950"} hover:text-orange-500`
+              }
+            >
               <li>Project</li>
             </NavLink>
-            <NavLink to="contact">
+            <NavLink to="contact"
+              className={({ isActive }) =>
+                ` ${isActive ? " text-red-500 underline" : "text-pink-950"} hover:text-orange-500`
+              }
+            >
               <li>Contact</li>
             </NavLink>
           </ul>

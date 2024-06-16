@@ -12,9 +12,11 @@ function Home() {
             <h1 className='md:text-5xl sm:text-6xl text-2xl  md:py-6'>
               <TypeAnimation
                 sequence={[
-                  'Frontend Developer',
+                  'Web Developer',
                   2500,
                   'Web Designer',
+                  2500,
+                  'Frontend Developer',
                   2500,
                 ]}
                 wrapper='span'

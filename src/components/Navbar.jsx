@@ -14,13 +14,13 @@ function Navbar() {
     <nav className='my-5 mx-5 bg-stone-300 text-pink-950 py-2.5 px-2.5 rounded-3xl'>
       <div className='flex justify-between items-center px-2.5'>
         <div className="logo">
-          <Link to="/home">
+          <Link to="/">
             <span className='text-3xl font-semibold'>DORCAS</span>
           </Link>
         </div>
         <div>
           <ul className=' hidden md:flex text-xl gap-5 font-medium'>
-            <NavLink to="/home"
+            <NavLink to="/"
               className={({ isActive }) =>
                 ` ${isActive ? " text-red-500 underline" : "text-pink-950"} hover:text-orange-500`
               }

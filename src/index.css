@@ -5,8 +5,56 @@
 @tailwind utilities;
 
 body {
-  background: #32012F;
+  background-image: linear-gradient(55deg,
+      hsl(304deg 95% 17%) 0%,
+      hsl(300deg 85% 15%) 8%,
+      hsl(296deg 77% 14%) 15%,
+      hsl(292deg 72% 12%) 23%,
+      hsl(288deg 70% 10%) 31%,
+      hsl(287deg 82% 8%) 40%,
+      hsl(285deg 67% 10%) 48%,
+      hsl(290deg 63% 16%) 57%,
+      hsl(295deg 65% 21%) 66%,
+      hsl(301deg 70% 25%) 76%,
+      hsl(305deg 80% 31%) 87%,
+      hsl(308deg 98% 34%) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: white;
+}
+
+.logo {
+  background: linear-gradient(135deg, #32012F, #660058, #990099);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-emphasis-color: transparent;
+}
+
+.navbar {
+  background-image: linear-gradient(55deg,
+      hsl(304deg 95% 17%) 0%,
+      hsl(300deg 85% 15%) 8%,
+      hsl(296deg 77% 14%) 15%,
+      hsl(292deg 72% 12%) 23%,
+      hsl(288deg 70% 10%) 31%,
+      hsl(287deg 82% 8%) 40%,
+      hsl(285deg 67% 10%) 48%,
+      hsl(290deg 63% 16%) 57%,
+      hsl(295deg 65% 21%) 66%,
+      hsl(301deg 70% 25%) 76%,
+      hsl(305deg 80% 31%) 87%,
+      hsl(308deg 98% 34%) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.navbar .logo {
+  background: linear-gradient(135deg, #32012F, #FF007F, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 * {

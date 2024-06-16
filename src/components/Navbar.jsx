@@ -54,16 +54,43 @@ function Navbar() {
         <div onClick={handleNav} className='block md:hidden'>
           {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
         </div>
-        <div className={nav ? 'md:hidden text-gray-300 fixed h-full left-0 top-0 w-[60%] border-r-gray-900 bg-pink-950 ease-in-out duration-500 ' : "fixed left-[-100%]"}>
+        <div className={nav ? 'md:hidden navbar text-gray-300 fixed h-full left-0 top-0 w-[60%] border-r-gray-900 ease-in-out duration-500 ' : "fixed left-[-100%]"}>
           <div className="logo text-center my-10">
-            <span className='text-3xl font-semibold'>DORCAS</span>
+            <Link to="/">
+              <span className='text-3xl logo font-semibold'>DORCAS</span>
+            </Link>
           </div>
           <div>
             <ul className='flex flex-col items-center text-xl gap-5 font-medium'>
-              <li>About</li>
-              <li>Skills/Tools</li>
-              <li>Project</li>
-              <li>Contact</li>
+              <NavLink to="/"
+                className={({ isActive }) =>
+                  ` ${isActive ? " text-red-500 underline" : "text-white"} hover:text-orange-500`
+                }
+              >
+                <li>About</li>
+              </NavLink>
+
+              <NavLink to="skills"
+                className={({ isActive }) =>
+                  ` ${isActive ? " text-red-500 underline" : "text-white"} hover:text-orange-500`
+                }
+              >
+                <li>Skills/Tools</li>
+              </NavLink>
+              <NavLink to="project"
+                className={({ isActive }) =>
+                  ` ${isActive ? " text-red-500 underline" : "text-white"} hover:text-orange-500`
+                }
+              >
+                <li>Project</li>
+              </NavLink>
+              <NavLink to="contact"
+                className={({ isActive }) =>
+                  ` ${isActive ? " text-red-500 underline" : "text-white"} hover:text-orange-500`
+                }
+              >
+                <li>Contact</li>
+              </NavLink>
             </ul>
           </div>
         </div>

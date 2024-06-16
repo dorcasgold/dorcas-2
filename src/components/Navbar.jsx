@@ -22,7 +22,7 @@ function Navbar() {
           <ul className=' hidden md:flex text-xl gap-5 font-medium'>
             <NavLink to="/"
               className={({ isActive }) =>
-                ` ${isActive ? " text-red-500 underline" : "text-pink-950"} hover:text-orange-500`
+                ` ${isActive ? " text-red-500 " : "text-pink-950"} hover:text-orange-500`
               }
             >
               <li>About</li>
@@ -30,21 +30,21 @@ function Navbar() {
 
             <NavLink to="skills"
               className={({ isActive }) =>
-                ` ${isActive ? " text-red-500 underline" : "text-pink-950"} hover:text-orange-500`
+                ` ${isActive ? " text-red-500 " : "text-pink-950"} hover:text-orange-500`
               }
             >
-              <li>Skills/Tools</li>
+              <li>Tech</li>
             </NavLink>
             <NavLink to="project"
               className={({ isActive }) =>
-                ` ${isActive ? " text-red-500 underline" : "text-pink-950"} hover:text-orange-500`
+                ` ${isActive ? " text-red-500 " : "text-pink-950"} hover:text-orange-500`
               }
             >
               <li>Project</li>
             </NavLink>
             <NavLink to="contact"
               className={({ isActive }) =>
-                ` ${isActive ? " text-red-500 underline" : "text-pink-950"} hover:text-orange-500`
+                ` ${isActive ? " text-red-500 " : "text-pink-950"} hover:text-orange-500`
               }
             >
               <li>Contact</li>
@@ -64,7 +64,7 @@ function Navbar() {
             <ul className='flex flex-col items-center text-xl gap-5 font-medium'>
               <NavLink to="/"
                 className={({ isActive }) =>
-                  ` ${isActive ? " text-red-500 underline" : "text-white"} hover:text-orange-500`
+                  ` ${isActive ? " text-red-500 " : "text-white"} hover:text-orange-500`
                 }
               >
                 <li>About</li>
@@ -72,21 +72,21 @@ function Navbar() {
 
               <NavLink to="skills"
                 className={({ isActive }) =>
-                  ` ${isActive ? " text-red-500 underline" : "text-white"} hover:text-orange-500`
+                  ` ${isActive ? " text-red-500 " : "text-white"} hover:text-orange-500`
                 }
               >
-                <li>Skills/Tools</li>
+                <li>Tech</li>
               </NavLink>
               <NavLink to="project"
                 className={({ isActive }) =>
-                  ` ${isActive ? " text-red-500 underline" : "text-white"} hover:text-orange-500`
+                  ` ${isActive ? " text-red-500 " : "text-white"} hover:text-orange-500`
                 }
               >
                 <li>Project</li>
               </NavLink>
               <NavLink to="contact"
                 className={({ isActive }) =>
-                  ` ${isActive ? " text-red-500 underline" : "text-white"} hover:text-orange-500`
+                  ` ${isActive ? " text-red-500 " : "text-white"} hover:text-orange-500`
                 }
               >
                 <li>Contact</li>

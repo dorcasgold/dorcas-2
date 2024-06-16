@@ -31,7 +31,7 @@ function Home() {
 
           <div>
             <span className="bg-stone-300 text-pink-950 py-3 px-5 rounded-lg font-medium cursor-pointer transition-all duration-300 ease-in hover:rounded-sm hover:bg-pink-950 hover:text-stone-300">
-              Contact Me
+              View Resume
             </span>
           </div>
         </div>

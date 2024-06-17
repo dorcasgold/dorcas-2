@@ -15,7 +15,7 @@ function Skills() {
         <div className="flex  gap-16">
           <div className="left">
             <div className="border-gray-100 border-2 w-32 text-center justify-center items-center px-2 py-2 flex flex-col">
-              <img className="" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+              <img className="imgIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
               <p>react</p>
             </div>
 
@@ -23,10 +23,10 @@ function Skills() {
               <i className="devicon-reactrouter-plain colored "></i>
             </div>
             <div className="border-gray-100 border-2 w-32 text-center justify-center items-center px-2 py-2 flex flex-col">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+              <img className="imgIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
             </div>
             <div className="border-gray-100 border-2 w-32 text-center justify-center items-center px-2 py-2 flex flex-col">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" className="" />
+              <img className="imgIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" className="" />
             </div>
           </div>
           <div className="right">
@@ -36,13 +36,13 @@ function Skills() {
               </svg>
             </div>
             <div className="border-gray-100 border-2 w-32 text-center justify-center items-center px-2 py-2 flex flex-col">
-              <img className="" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+              <img className="imgIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
             </div>
             <div className="border-gray-100 border-2 w-32 text-center justify-center items-center px-2 py-2 flex flex-col">
-              <img className="" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" />
+              <img className="imgIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" />
             </div>
             <div className="border-gray-100 border-2 w-32 text-center justify-center items-center px-2 py-2 flex flex-col">
-              <img className="" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" />
+              <img className="imgIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" />
             </div>
             <div className="border-gray-100 border-2 w-32 text-center justify-center items-center px-2 py-2 flex flex-col">
               <i className="devicon-tailwindcss-original colored "></i>

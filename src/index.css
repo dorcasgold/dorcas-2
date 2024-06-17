@@ -47,6 +47,7 @@ body {
       hsl(308deg 98% 34%) 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  z-index: 100;
 }
 
 .navbar .logo {

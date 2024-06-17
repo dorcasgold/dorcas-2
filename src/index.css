@@ -67,6 +67,10 @@ body {
   width: 50px;
 }
 
+i {
+  font-size: 80px;
+}
+
 svg {
-  width: 50px;
+  width: 65px;
 }

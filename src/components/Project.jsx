@@ -16,7 +16,7 @@ function Project() {
 
         <div >
           <div className="flex flex-col justify-center items-center gap-10">
-            <div className="w-64 card rounded sm:w-3/6">
+            <div className="w-80 card rounded sm:w-3/6">
               <div>
                 <img className='rounded' src={skill} alt="project-img" />
               </div>
@@ -43,7 +43,7 @@ function Project() {
               </div>
             </div>
 
-            <div className="w-64 card rounded sm:w-3/6">
+            <div className="w-80 card rounded sm:w-3/6">
               <div>
                 <img className='rounded' src={portfolio} alt="project-img" />
               </div>
@@ -70,7 +70,7 @@ function Project() {
               </div>
             </div>
 
-            <div className="w-64 card rounded sm:w-3/6">
+            <div className="w-80 card rounded sm:w-3/6">
               <div>
                 <img className='rounded' src={form} alt="project-img" />
               </div>
@@ -96,7 +96,7 @@ function Project() {
                 </div>
               </div>
             </div>
-            <div className="w-64 card rounded sm:w-3/6">
+            <div className="w-80 card rounded sm:w-3/6">
               <div>
                 <img className='rounded' src={skill} alt="project-img" />
               </div>

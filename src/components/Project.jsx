@@ -18,7 +18,7 @@ function Project() {
           <div className="flex flex-col justify-center items-center gap-10">
             <div className="w-80 card rounded sm:w-3/6">
               <div>
-                <img className='rounded' src={skill} alt="project-img" />
+                <img className='rounded lazy-load-image-background lazy-load-image-loaded' src={skill} alt="project-img" />
               </div>
               <div className='mx-3 my-3 px-3 py-3 flex   gap-3 flex-col'>
                 <p className='text-lg font-semibold'>Skillhub </p>
@@ -45,7 +45,7 @@ function Project() {
 
             <div className="w-80 card rounded sm:w-3/6">
               <div>
-                <img className='rounded' src={portfolio} alt="project-img" />
+                <img className='rounded lazy-load-image-background lazy-load-image-loaded' src={portfolio} alt="project-img" />
               </div>
               <div className='mx-3 my-3 px-3 py-3 flex   gap-3 flex-col'>
                 <p className='text-lg font-semibold'>Portfolio Website</p>
@@ -72,7 +72,7 @@ function Project() {
 
             <div className="w-80 card rounded sm:w-3/6">
               <div>
-                <img className='rounded' src={form} alt="project-img" />
+                <img className='rounded lazy-load-image-background lazy-load-image-loaded' src={form} alt="project-img" />
               </div>
               <div className='mx-3 my-3 px-3 py-3 flex   gap-3 flex-col'>
                 <p className='text-lg font-semibold'>Login / Signup </p>
@@ -98,25 +98,25 @@ function Project() {
             </div>
             <div className="w-80 card rounded sm:w-3/6">
               <div>
-                <img className='rounded' src={skill} alt="project-img" />
+                <img className='rounded lazy-load-image-background lazy-load-image-loaded' src={rps} alt="project-img" />
               </div>
               <div className='mx-3 my-3 px-3 py-3 flex   gap-3 flex-col'>
-                <p className='text-lg font-semibold'>Skillhub </p>
-                <p className='text-gray-300'>Online Learning platform</p>
+                <p className='text-lg font-semibold'>Slash Clash </p>
+                <p className='text-gray-300'>Rock, Paper, Scissors !!!</p>
                 <p>Html css js</p>
                 <div className="flex items-center  gap-10">
                   <div>
                     <div className='flex items-center gap-1'>
                       <img className='w-8' src={codeicon} alt="icon" />
                       <div>
-                        <a href="#">code</a>
+                        <a href="https://github.com/dorcasgold/Rock-Paper-Scissors">code</a>
                       </div>
                     </div>
                   </div>
                   <div className='flex items-center gap-1'>
                     <img className='w-6' src={eyeicon} alt="icon" />
                     <div>
-                      <a href="#">Live Demo</a>
+                      <a href="https://slashclash.netlify.app/">Live Demo</a>
                     </div>
                   </div>
                 </div>

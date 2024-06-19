@@ -1,10 +1,26 @@
-// component to display an individual project:
+import React from 'react';
+import { motion, useInView } from 'framer-motion';
 import codeicon from '../../assets/code-fork.gif';
 import eyeicon from '../../assets/eye.gif';
 
 function Project({ imgSrc, title, description, codeLink, liveLink }) {
+  const ref = React.useRef(null);
+  const isInView = useInView(ref, { once: false, amount: 0.3 });
+
+  const variants = {
+    hidden: { opacity: 0, scale: 0.8 },
+    visible: { opacity: 1, scale: 1 },
+  };
+
   return (
-    <div className='w-80 card rounded sm:w-3/6'>
+    <motion.div
+      ref={ref}
+      initial="hidden"
+      animate={isInView ? "visible" : "hidden"}
+      variants={variants}
+      transition={{ duration: 0.5 }}
+      className="w-80 card rounded sm:w-3/6"
+    >
       <div>
         <img className='rounded lazy-load-image-background lazy-load-image-loaded' src={imgSrc} alt="project-img" />
       </div>
@@ -29,8 +45,8 @@ function Project({ imgSrc, title, description, codeLink, liveLink }) {
           </div>
         </div>
       </div>
-    </div>
-  )
+    </motion.div>
+  );
 }
 
-export default Project
+export default Project;

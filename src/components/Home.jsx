@@ -1,3 +1,4 @@
+
 import computer from '../assets/computer.gif'
 import { TypeAnimation } from 'react-type-animation'
 

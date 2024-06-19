@@ -1,6 +1,6 @@
-import React from 'react';
-import codeicon from '../assets/code-fork.gif';
-import eyeicon from '../assets/eye.gif';
+// component to display an individual project:
+import codeicon from '../../assets/code-fork.gif';
+import eyeicon from '../../assets/eye.gif';
 
 function Project({ imgSrc, title, description, codeLink, liveLink }) {
   return (
@@ -30,7 +30,7 @@ function Project({ imgSrc, title, description, codeLink, liveLink }) {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Project;
+export default Project

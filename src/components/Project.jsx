@@ -1,6 +1,7 @@
 import form from '../assets/website/form.png'
 import portfolio from '../assets/website/portfolio.png'
 import rps from '../assets/website/rps.png'
+import wave from '../assets/website/wave.png'
 import skill from '../assets/website/skill.png'
 import codeicon from '../assets/code-fork.gif'
 import eyeicon from '../assets/eye.gif'
@@ -91,6 +92,33 @@ function Project() {
                     <img className='w-6' src={eyeicon} alt="icon" />
                     <div>
                       <a href="https://react-form-dorcas.netlify.app/">Live Demo</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* card */}
+            <div className="w-80 card rounded sm:w-3/6">
+              <div>
+                <img className='rounded lazy-load-image-background lazy-load-image-loaded' src={wave} alt="project-img" />
+              </div>
+              <div className='mx-3 my-3 px-3 py-3 flex   gap-3 flex-col'>
+                <p className='text-lg font-semibold'>WeatherWave  </p>
+                <p className='text-gray-300'>a web app that displays real-time weather data from the OpenWeatherMap API based on user-input locations.</p>
+                <p>React Tailwind </p>
+                <div className="flex items-center  gap-10">
+                  <div>
+                    <div className='flex items-center gap-1'>
+                      <img className='w-8' src={codeicon} alt="icon" />
+                      <div>
+                        <a href="https://github.com/dorcasgold/WeatherWave">code</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='flex items-center gap-1'>
+                    <img className='w-6' src={eyeicon} alt="icon" />
+                    <div>
+                      <a href="https://weatherwavew.netlify.app/">Live Demo</a>
                     </div>
                   </div>
                 </div>

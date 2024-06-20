@@ -1,6 +1,7 @@
 
 import computer from '../assets/computer.gif'
 import { TypeAnimation } from 'react-type-animation'
+import cv from '../assets/DORCAS ODETAYO FRONTEND WEB DEVELOPER.pdf'
 
 function Home() {
   return (
@@ -32,7 +33,9 @@ function Home() {
 
           <div>
             <span className="bg-stone-300 text-pink-950 py-3 px-5 rounded-lg font-medium cursor-pointer transition-all duration-300 ease-in hover:rounded-sm hover:bg-pink-950 hover:text-stone-300">
-              View Resume
+              <a href={cv}>
+                View Resume
+              </a>
             </span>
           </div>
         </div>

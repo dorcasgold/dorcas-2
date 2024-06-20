@@ -1,3 +1,4 @@
+import cv from '../assets/DORCAS ODETAYO FRONTEND WEB DEVELOPER.pdf'
 function Skills() {
   return (
     <div className="my-5  mx-12">
@@ -7,7 +8,9 @@ function Skills() {
           <h1 className="text-sm font-medium sm:text-base">Here are some of the tools & tech I use in personal and professional projects.</h1>
           <div>
             <span className="bg-stone-300 text-pink-950 py-3 px-5 rounded-lg font-medium cursor-pointer transition-all duration-300 ease-in hover:rounded-sm hover:bg-pink-950 hover:text-stone-300">
-              View Resume
+              <a href={cv}>
+                View Resume
+              </a>
             </span>
           </div>
         </div>

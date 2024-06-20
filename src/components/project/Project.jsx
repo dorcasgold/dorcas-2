@@ -3,7 +3,7 @@ import { motion, useInView } from 'framer-motion';
 import codeicon from '../../assets/code-fork.gif';
 import eyeicon from '../../assets/eye.gif';
 
-function Project({ imgSrc, title, description, codeLink, liveLink }) {
+function Project({ imgSrc, title, description, codeLink, liveLink, languages }) {
   const ref = React.useRef(null);
   const isInView = useInView(ref, { once: false, amount: 0.3 });
 
@@ -27,7 +27,7 @@ function Project({ imgSrc, title, description, codeLink, liveLink }) {
       <div className='mx-3 my-3 px-3 py-3 flex gap-3 flex-col'>
         <p className='text-lg font-semibold'>{title}</p>
         <p className='text-gray-300'>{description}</p>
-        <p>Html css js</p>
+        <p className='  font-semibold'>{languages}</p>
         <div className="flex items-center gap-10">
           <div>
             <div className='flex items-center gap-1'>

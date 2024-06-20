@@ -12,6 +12,7 @@ const projects = [
     description: 'Online Learning Platform',
     codeLink: 'https://github.com/dorcasgold/skillhub',
     liveLink: 'https://skillhubb.netlify.app/',
+    languages: 'Html css js'
   },
   {
     imgSrc: portfolio,
@@ -19,6 +20,7 @@ const projects = [
     description: 'My previous Portfolio Website',
     codeLink: 'https://github.com/dorcasgold/dorcasodetayo',
     liveLink: 'https://dorcas-odetayo.netlify.app/',
+    languages: 'Html css js'
   },
   {
     imgSrc: form,
@@ -26,6 +28,7 @@ const projects = [
     description: 'A modern and user-friendly login/signup form',
     codeLink: 'https://github.com/dorcasgold/React-Login-Signup',
     liveLink: 'https://react-form-dorcas.netlify.app/',
+    languages: 'React Tailwind'
   },
   {
     imgSrc: wave,
@@ -33,6 +36,7 @@ const projects = [
     description: 'A web app that displays real-time weather data from the OpenWeatherMap API based on user-input locations.',
     codeLink: 'https://github.com/dorcasgold/WeatherWave',
     liveLink: 'https://weatherwavew.netlify.app/',
+    languages: 'React Tailwind'
   },
   {
     imgSrc: rps,
@@ -40,6 +44,7 @@ const projects = [
     description: 'Rock, Paper, Scissors !!!',
     codeLink: 'https://github.com/dorcasgold/Rock-Paper-Scissors',
     liveLink: 'https://slashclash.netlify.app/',
+    languages: 'Html css js'
   },
 ];
 

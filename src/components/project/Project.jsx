@@ -8,8 +8,8 @@ function Project({ imgSrc, title, description, codeLink, liveLink, languages }) 
   const isInView = useInView(ref, { once: false, amount: 0.3 });
 
   const variants = {
-    hidden: { opacity: 0, scale: 0.8 },
-    visible: { opacity: 1, scale: 1 },
+    hidden: { opacity: 0, x: -100 },
+    visible: { opacity: 1, x: 0 },
   };
 
   return (
@@ -18,7 +18,7 @@ function Project({ imgSrc, title, description, codeLink, liveLink, languages }) 
       initial="hidden"
       animate={isInView ? "visible" : "hidden"}
       variants={variants}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 0.3 }}
       className="w-80 card rounded sm:w-3/6"
     >
       <div>

@@ -1,4 +1,7 @@
-
+import { Link } from "react-router-dom";
+import { AiOutlineX } from "react-icons/ai";
+import { AiOutlineLinkedin } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import computer from '../assets/computer.gif'
 import { TypeAnimation } from 'react-type-animation'
 import cv from '../assets/DORCAS ODETAYO FRONTEND WEB DEVELOPER.pdf'
@@ -26,6 +29,24 @@ function Home() {
                 repeat={Infinity}
               />
             </h1>
+          </div>
+          <div className="flex  mt-8   gap-4 text-5xl">
+            <div>
+              <a target="_blank" href="https://github.com/dorcasgold">
+                <AiFillGithub className="link-svg" />
+              </a>
+            </div>
+            <div>
+              <a href="https://x.com/Tabeetha_19" target="_blank">
+                <AiOutlineX className="link-svg" />
+              </a>
+
+            </div>
+            <div>
+              <a href="https://www.linkedin.com/in/dorcas-odetayo/" target="_blank">
+                <AiOutlineLinkedin className="link-svg" />
+              </a>
+            </div>
           </div>
           <p className='my-3 leading-8 py-3.5 text-base'>
             I am a frontend developer with extensive experience in crafting visually appealing and user-centric web interfaces. My expertise lies in translating design visions into sleek, responsive, and intuitive websites and mobile apps. I am eager to join a dynamic team where I can push my boundaries, enhance user experiences, and drive the company&apos;s success with my skills and dedication.

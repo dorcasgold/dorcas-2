@@ -3,9 +3,18 @@ import portfolio from '../../assets/website/portfolio.png';
 import form from '../../assets/website/form.png';
 import wave from '../../assets/website/wave.png';
 import rps from '../../assets/website/rps.png';
+import sales from '../../assets/website/salespro.png'
 
 
 const projects = [
+  {
+    imgSrc: sales,
+    title: 'SalesInsightPro',
+    description: 'Marketing Website',
+    codeLink: 'https://github.com/dorcasgold/LeadGrowthLab',
+    liveLink: 'https://salesinsightpro.netlify.app/',
+    languages: 'React js Tailwind'
+  },
   {
     imgSrc: skill,
     title: 'Skillhub',
@@ -28,7 +37,7 @@ const projects = [
     description: 'A modern and user-friendly login/signup form',
     codeLink: 'https://github.com/dorcasgold/React-Login-Signup',
     liveLink: 'https://react-form-dorcas.netlify.app/',
-    languages: 'React Tailwind'
+    languages: 'React js Tailwind'
   },
   {
     imgSrc: wave,
@@ -36,7 +45,7 @@ const projects = [
     description: 'A web app that displays real-time weather data from the OpenWeatherMap API based on user-input locations.',
     codeLink: 'https://github.com/dorcasgold/WeatherWave',
     liveLink: 'https://weatherwavew.netlify.app/',
-    languages: 'React Tailwind'
+    languages: 'React js Tailwind'
   },
   {
     imgSrc: rps,
